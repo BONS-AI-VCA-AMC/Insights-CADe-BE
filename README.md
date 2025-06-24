@@ -8,7 +8,7 @@
 
 (<sup>:email:</sup>) corresponding author
 
-*Computer Methods and Programs in Biomedicine - Volume XX, MM 2025*
+*Computer Methods and Programs in Biomedicine - Volume XX, MM 2025* <br /> ([Article](https://doi.org/10.1016/j.cmpb.2025.108891))
 
 </div>
 
