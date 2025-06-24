@@ -41,7 +41,7 @@ and clinically effective CADe systems.
 
 ## Infographic
 A graphical representation of the experimental setup in the study.
-![My Image](images/Setup.PNG)
+![My Image](images/SetupV2.PNG)
 
 ## Folder Structure
 The folder structure of this repository is as follows:
