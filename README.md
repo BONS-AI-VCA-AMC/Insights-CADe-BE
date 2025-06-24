@@ -8,7 +8,7 @@
 
 (<sup>:email:</sup>) corresponding author
 
-*Submission under Review*
+*Computer Methods and Programs in Biomedicine - Volume XX, MM 2025*
 
 </div>
 
@@ -89,5 +89,5 @@ The ImageNet pretrained weights are downloaded from the following links and put 
 - VisionMamba: https://github.com/hustvl/Vim/tree/main
 
 ## Citation
-if you think this helsp please use the following citation for the journal article:
+if you think this helps please use the following citation for the journal article:
 ```bash
