@@ -8,7 +8,7 @@
 
 (<sup>:email:</sup>) corresponding author
 
-*Computer Methods and Programs in Biomedicine - Volume XX, MM 2025* <br /> ([Article](https://doi.org/10.1016/j.cmpb.2025.108891))
+*Computer Methods and Programs in Biomedicine - Volume 269, September 2025* <br /> ([Article](https://doi.org/10.1016/j.cmpb.2025.108891))
 
 </div>
 
@@ -91,3 +91,24 @@ The ImageNet pretrained weights are downloaded from the following links and put 
 ## Citation
 if you think this helps please use the following citation for the journal article:
 ```bash
+@article{KUSTERS2025108891,
+title = {Designing a Computer-Aided Detection system for Barrett ’s neoplasia: Insights in architectural choices, training strategies and inference approaches},
+journal = {Computer Methods and Programs in Biomedicine},
+volume = {269},
+pages = {108891},
+year = {2025},
+issn = {0169-2607},
+doi = {https://doi.org/10.1016/j.cmpb.2025.108891},
+url = {https://www.sciencedirect.com/science/article/pii/S0169260725003086},
+author = {Carolus H.J. Kusters and Tim G.W. Boers and Tim J.M. Jaspers and Martijn R. Jong and Rixta A.H. {van Eijck van Heslinga} and Jelmer B. Jukema and Kiki N. Fockens and Albert J. {de Groof} and Jacques J. Bergman and Fons {van der Sommen} and Peter H.N. {De With}},
+keywords = {Endoscopic image analysis, Barrett’s Esophagus, Architectures, Training and inference strategies},
+abstract = {Background and Objective:
+Detecting early neoplasia in Barrett’s Esophagus (BE) presents significant challenges due to the subtle endoscopic appearance of lesions. Computer-Aided Detection (CADe) systems have the potential to assist endoscopists by enhancing the identification and localization of these early-stage lesions. This study aims to provide comprehensive insights into the structured design and development of effective CADe systems for BE neoplasia detection, addressing unique challenges and complexities of endoscopic imaging and the nature of BE neoplasia.
+Methods:
+We conduct an extensive evaluation of architectural choices, training strategies, and inference approaches to optimize CADe systems for BE neoplasia detection. This evaluation includes 10 backbone architectures and 4 semantic segmentation decoders. Training strategies assessed are domain-specific pre-training with a self-supervised learning objective, data augmentation techniques, incorporation of additional video frames and utilization of variants for multi-expert segmentation ground-truth. Evaluation of inference approaches includes various model output fusion techniques and TensorRT conversion. The optimized model is benchmarked against 6 state-of-the-art CADe systems for BE neoplasia detection across 9 diverse test sets.
+Results:
+The experimental results demonstrate the impact of incorporating structured design considerations, leading to measurable and incremental performance gains of up to 7.8% on dedicated validation sets. The contributions particularly stand out for the domain-specific pre-training and the use of a hybrid CNN-Transformer architecture, which benefits robustness and overall performance. The model optimized through these design choices achieves statistically significant improvements over existing CADe systems, with p-values in the range p∈[0.0019,0.031]. It outperforms state-of-the-art models in classification and localization, with improvements of up to 12.8% over the second-best performing model. These gains demonstrate enhanced peak performance, generalization capabilities, and robustness across diverse test sets representative of real-world clinical challenges.
+Conclusion:
+This study provides critical insights into the structured development of effective CADe systems for Barrett’s neoplasia detection. By addressing the specific challenges associated with endoscopic imaging and Barrett’s neoplasia, the study demonstrates that careful consideration of architectural choices, training strategies, and inference approaches results in significantly improved CADe performance. These findings underscore the importance of tailored design and optimization in developing robust and clinically effective CADe systems. The code is made publicly available at: https://github.com/BONS-AI-VCA-AMC/Insights-CADe-BE.}
+}
+```
